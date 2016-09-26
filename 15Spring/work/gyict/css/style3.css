@@ -1,0 +1,256 @@
+body{
+	min-width: 980px;
+	position: relative;
+}
+
+#logo{
+	margin-top: 40px;
+	font-size: 26px;
+	color: #FFFFFF;
+	font-family: "Century Gothic";
+}
+
+.navdiv{
+	background-color: #953da5;
+	height: 80px;
+	width: 100%;
+}
+
+#logo{
+
+	float: left;
+}
+
+
+@media screen and (max-width:980px){
+	#gitlogo{
+		display: none;
+	}
+}
+#gitlogo{
+	float: right;
+	width: 34px;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+
+.hf{
+	float: right;
+	margin: 50px 15px 0px 15px;	
+}
+
+
+.a1{
+	font-family: "SimSun";
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 14px;
+	color: #ffffff;
+}
+
+.heback{
+	/*height: 500px;*/
+	width: 100%;
+	position: relative;
+
+}
+
+
+
+.footernav{
+
+	height: 36px;
+	background: #000000;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+
+
+.fa{
+	color: #FFFFFF;
+	font-size: 8px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+footer{
+	background-color: #000000;
+	margin-top: 50px;
+}
+.links{
+	margin-top: 40px;
+	height: 300px;
+	background-color: #000000;
+	width: 100%;	
+}
+
+.links th{
+	height: 36px;
+	color: #DDDDDD;
+	width: 1%;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+}
+
+
+.links td{
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.cr{
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+
+.crpic{
+	margin-left: 49%;
+	width: 32px;
+}
+
+a.a1,a.a2:link {text-decoration: none;color: #FFFFFF;} 
+a.a1:hover { text-decoration:underline;} 
+
+
+/*new*/
+body{
+	background-color: rgb(236, 236, 236);
+}
+.mbody{
+	position: relative;
+    padding-bottom: 100px;
+    width: 980px;
+    height: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.head{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-left: 380px;
+    margin-top: -80px;
+    border-radius: 100px;
+    border: 10px solid rgb(236, 236, 236);
+    margin-bottom: -80px;
+    z-index: 1;
+}
+
+
+.p1,.p2,.p3,.p4{
+	position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 58px;
+    margin-left: 430px;
+    margin-bottom: -1000px;
+    border-radius: 100px;
+    border: 6px solid rgb(236, 236, 236);
+}
+
+.p1{
+	margin-top: 100px;
+}
+
+.p2{
+	margin-top: 280px;
+}
+
+.p3{
+	margin-top: 450px;
+	position: relative;
+}
+.p4{
+	margin-top: 465px;
+	position: relative;
+}
+
+.y1,.y2{
+	position: relative;
+    margin-left: 451px;
+    margin-top: 580px;
+    margin-bottom: -450px;
+}
+p{
+	font-size: 8px;
+	padding-left: 5px;
+	margin-top: 0px;
+}
+
+.year1,.year2,.year3,.year4,.year5{
+	position: relative;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 3px solid rgb(236, 236, 236);
+}
+
+.ribody{
+	background-color: #FFFFFF;
+    width: 484px;
+    margin: 0px;   
+    float: left;
+    margin-left: 5px;
+    height: 1000px;
+    margin-top: -460px;
+    z-index: -1;
+}
+.lebody{
+	background-color: #FFFFFF;
+    width: 484px;
+    margin: 0px;
+    float: left;
+    height: 1000px;
+    margin-top: -460px;
+    z-index: -1;
+}
+.ltext,.rtext{
+	position: relative;
+	padding-top: 100px;
+}
+
+.lena,.lecon,.leedu,.lein{
+	position: relative;
+    margin-top: 180px;
+    font-size: 16px;
+    margin-left: 320px;
+}
+
+.lena{
+	margin-top: 150px;
+}
+
+.rina,.ricon,.riedu,.riin{
+	position: relative;
+    margin-top: 115px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 66px;
+}
+
+.riin{
+	margin-top: 122px;
+}
+
+.edu{
+	margin-top: 25px;
+}
+
+.rina{
+	margin-top: 150px;
+}

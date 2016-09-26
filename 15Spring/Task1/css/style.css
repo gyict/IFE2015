@@ -1,0 +1,23 @@
+div{
+	height: 100px;
+	width: 960px;
+	border: 0px solid black;
+
+}
+#one{
+	
+	background-color: #FF0000;
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;*/
+	margin:0 auto;
+}
+
+
+.fbox{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	background-color: #FF0000;
+}

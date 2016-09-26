@@ -1,0 +1,419 @@
+body{
+	min-width: 980px;
+	position: relative;
+}
+
+#logo{
+	margin-top: 40px;
+	font-size: 26px;
+	color: #FFFFFF;
+	font-family: "Century Gothic";
+}
+
+.navdiv{
+	background-color: #953da5;
+	height: 80px;
+	width: 100%;
+}
+
+#logo{
+
+	float: left;
+}
+
+
+@media screen and (max-width:980px){
+	#gitlogo{
+		display: none;
+	}
+}
+#gitlogo{
+	float: right;
+	width: 34px;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-left: 50px;
+}
+
+.hf{
+	float: right;
+	margin: 50px 15px 0px 15px;	
+}
+
+
+.a1{
+	font-family: "SimSun";
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 14px;
+	color: #ffffff;
+}
+
+.heback{
+	/*height: 500px;*/
+	width: 100%;
+	position: relative;
+
+}
+
+
+
+.footernav{
+
+	height: 36px;
+	background: #000000;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+
+
+.fa{
+	color: #FFFFFF;
+	font-size: 8px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+footer{
+	background-color: #000000;
+}
+.links{
+	margin-top: 40px;
+	height: 300px;
+	background-color: #000000;
+	width: 100%;	
+}
+
+.links th{
+	height: 36px;
+	color: #DDDDDD;
+	width: 1%;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+}
+
+
+.links td{
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.cr{
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+
+.crpic{
+	margin-left: 49%;
+	width: 32px;
+}
+
+a.a1,a.a2:link {text-decoration: none;color: #FFFFFF;} 
+a.a1:hover { text-decoration:underline;} 
+
+.artdiv{
+	background-color: rgb(236, 236, 236);
+	margin-top: -15px;
+}
+.art{
+	width: 980px;
+	position: relative;
+}
+
+.sea{
+	/*float: right;
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 90px;
+    margin-top: 15px;
+    margin-right: 340px;*/
+    position: absolute;
+    background-color: #FFFFFF;
+    right: 490px;
+    top: 98px;
+    width: 280px;
+    height: 90px;
+}
+
+.tag{
+
+	/*float: right;
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 90px;
+    margin-top: 15px;*/
+   /* margin-right: 340px;*/
+
+	background-color: #FFFFFF;
+	position: absolute;
+    right: 490px;
+    top: 200px;
+    width: 280px;
+    /*height: 100px;*/
+}
+
+
+
+.t1{
+	border-top: 0.3px solid #cacaca;
+	border-left: 4px solid #d28fde;
+	font-size: 18px;
+	padding-left: 8px;
+	height: 40px;
+	padding-top: 8px;
+}
+
+.t1:hover{
+	border-left-color:#953da5;
+}
+
+
+#last{
+	border-bottom: 0.3px solid #cacaca;
+}
+
+
+#actt{
+	border-left: 4px solid #953da5;
+}
+
+
+.bt1{
+	width: 64px;
+    height: 40px;
+    background: #e0e0e0;
+    margin-left: -40px;
+    font-size: 28px;
+    color: #FFFFFF;
+    border: 0px;
+    line-height: 85%;
+}
+
+
+#text1{
+	height: 40px;
+    width: 160px;
+    margin: 20px 25px;
+    border: 2px solid rgb(236, 236, 236)
+	
+}
+
+
+.calen{
+	position: absolute;
+    background-color: #FFFFFF;
+    right: 490px;
+    top: 420px;
+    width: 280px;
+    height: 280px;
+   
+}
+.calen th,td{
+	text-align: center;
+	padding: 5px;
+	width: 40px;
+	height: 30px;
+	border-bottom: 0.5px solid rgb(236, 236, 236);
+}
+#cal{
+	padding: 10px;
+	font-size: 15px;
+	color: rgb(180, 180, 180);
+	border-bottom: 0.5px solid rgb(236, 236, 236);
+}
+
+.actcal{
+	background-color: #953da5;
+	color: #FFFFFF;
+}
+
+.actcal1{
+	color: #953da5;
+}
+
+
+
+
+.pre { 
+	padding-top: 20px;
+} 
+.pre1 { 
+	float: left;
+	border-width: 1px; 
+	border-color:  #953da5; 
+} 
+.pre2 { 
+	float: right;
+	border-width: 1px; 
+	border-color: #FFF ; 
+	float: right;
+}
+
+.calt{
+	color:#953da5;
+	font-size: 15px;
+	text-align: center;
+}
+/*.pre1, .pre2 { 
+	
+	border-style: dashed solid dashed dashed; 
+	****设置容器宽高为0**** 
+	width: 0; 
+	height: 0; 
+	
+	line-height: 0; 
+	font-size: 0; 
+	overflow: hidden; 
+}*/
+
+
+.tags{
+	position: absolute;
+    background-color: #FFFFFF;
+    right: 490px;
+    top: 720px;
+    width: 280px;
+    height: 220px;
+   
+}
+
+
+.row{
+	height: 40px;
+}
+
+
+.thead{
+	margin: 15px;
+}
+
+.sl,.sm,.ss,.sts{
+	color: #953da5;
+	display: inline-block;
+	font-size: 'Monospace','Courier';
+	padding-top: 4px;
+	padding-left: 8px;
+}
+
+
+.sl{
+	font-size: 32px;
+	font-weight: 900;
+	padding-left:10px;
+	padding-right:5px;
+}
+
+.sm{
+	font-size: 20px;
+	font-weight: 600;
+	padding-right:3px;
+}
+
+.ss{
+	font-size: 16px;
+	font-weight: 400;
+	padding-right:3px;
+}
+
+.sts{
+	font-size: 13px;
+	padding-right:0px;
+}
+
+
+.essays{
+	background-color: #FFFFFF;
+	margin-bottom: 10px;
+	width: 700px;
+	margin-left: 80px;
+	position: relative;
+	top: 15px;
+}
+
+
+.date{
+	background-color: #6418a9;
+	width: 40px;
+	height: 36px;
+	color:#FFFFFF; 
+	float: left;
+	font-size: 12px;
+	margin-left: -40px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.sty{
+	background-color: #770b92;
+    width: 40px;
+    height: 26px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: 36px;
+    margin-left: -40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.esstit{
+	font-size: 16px;
+	color: #8519a7;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+.esssub{
+	font-size: 12px;
+	color: #666;
+	padding-left: 20px;
+}
+
+
+.esscon{
+	font-size: 12px;
+	padding: 20px;
+}
+
+.pages{
+	padding-top: 15px;
+	padding-left: 10%;
+	padding-bottom: 15px;
+}
+
+.lp,.sp{
+	text-align: center;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	display: inline-block;
+	height: 30px;
+	font-size: 10px;
+	margin: 5px;
+
+}
+
+.lp{
+	width: 60px;
+
+}
+
+.sp{
+	width: 40px;
+}
+
+
+#actp{
+	color: #FFFFFF;
+	background-color: #770b92;
+}
+
+#unclick{
+	color: #999;
+}

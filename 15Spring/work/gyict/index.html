@@ -1,0 +1,85 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head 
+         content must come *after* these tags -->
+    <title>Gaoy's Home</title>
+
+      <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navdiv">
+		<div id="logo">Gaoy's Home</div>
+		<a href="http://www.baidu.com"><img id="gitlogo" src="img/icon-github.png" ></img></a>
+		<div class="hf">
+			<a href="index.html" class="a1">首页</a>
+			<a href="blog.html" class="a1">文章</a>
+			<a href="gallery.html" class="a1">作品</a>
+			<a href="about.html" class="a1">关于</a>
+		</div>
+		
+	</nav>
+	<div>
+		<img class="heback" src="img/banner-bg.jpg">
+		<div class="imgword">
+             <h3 class="imghead">Go_uP</h3>
+             <p class="imgcontent">爱生活，爱编程，点滴积累，厚积薄发</p>
+
+		</div>
+	</div>
+
+	<div class="article">
+		<div class="pictext">
+			<img src="img/img1.jpg" class="artpic">
+			<div class="artext">
+				<p>仔细查看example5和example4的源代码，可以发现DOM结构是完全一样的，仅仅CSS稍有不同。这意味着HTML结构和CSS布局在一定程度上解耦了，我们开发HTML代码时，从内容出发即可，无需过多的考虑布局。</p>
+			</div>
+		</div>
+		<div class="pictext">
+			<img src="img/img2.jpg" class="artpic">
+			<div class="artext">
+				<p>这个布局的实现思路是，先把最重要的身体部分放好，然后再将翅膀移动到适当的地方。因此请容许我给这个布局实现取名为双飞翼布局（Flying Swing Layout）.就如上图中的鸟有各种姿势一样，利用双飞翼布局，我们也可以实现各种布局。这里有个尝试页面，利用双飞翼，实现了一套栅格化布局系统。</p>
+			</div>
+		</div>
+		<div class="pictext">
+			<img src="img/img3.jpg" class="artpic">
+			<div class="artext">
+				<p>仔细查看example5和example4的源代码，可以发现DOM结构是完全一样的，仅仅CSS稍有不同。这意味着HTML结构和CSS布局在一定程度上解耦了，我们开发HTML代码时，从内容出发即可，无需过多的考虑布局。因此请容许我给这个布局实现取名为双飞翼布局（FlyingSwingLayout）这里有个尝试页面，利用双飞翼，实现了一套栅格化布局系统。</p>
+			</div>
+		</div>
+	</div>
+
+	<div><img src="img/head.jpg" class="head"></div>
+	<div class="self">
+
+		<div class="selft"><h3>Hi,I'm gaoy</h3></div>
+		<p class="selfcont">在IE6中的思路是，把html和body元素的高度设定为100%，即浏览器窗口的高度，然后利用padding-top在html元素上挤出一点空间来，因为绝对定位的最高参照物是参照html元素的，所以可以把顶栏绝对定位在html的padding-top那块空间上。这时body的高度就是html的高度（也是浏览器窗口的高度）减去html的padding-top的值，这也是ie6非常奇怪的一个特性，因为按照w3c盒模型来讲，增加了html元素的padding-top,则html元素的高度也会相应增加，这时浏览器窗口应该会出现垂直滚动条了。但IE6不会，html的增加了padding-top后，整个html元素的高度还是保持不变，即浏览器窗口的高度，变化的是body的高度减小了，用来抵消html的padding-top.</p>
+	</div>
+	</body>
+
+
+	<footer>
+		<div class="footernav"><a href="" class="fa">主页</a>
+			<a href="" class="fa">文章</a>
+			<a href="" class="fa">作品</a>
+			<a href="" class="fa">关于</a>
+		</div>
+		<div class="links">
+			<table id="tab">
+			<tr><th width="200">学习资料</th><th>友情链接</th><th>学习资料</th><th>友情链接</th><th>学习资料</th></tr>
+			<tr><td><a href="#tab1">100M</td><td><a href="#tab1">3G</td><td><a href="#tab1">files</a></td><td><a href="#tab1">盛大开业</td><td><a href="#tab1">网盘</td></tr>
+			<tr><td><a href="#tab1">100M</td><td><a href="#tab1">3G</td><td><a href="#tab1">files</a></td><td><a href="#tab1">盛大开业</td><td><a href="#tab1">网盘</td></tr>
+			<tr><td><a href="#tab1">100M</td><td><a href="#tab1">3G</td><td><a href="#tab1">files</a></td><td><a href="#tab1">盛大开业</td><td><a href="#tab1">网盘</td></tr>
+			<tr><td><a href="#tab1">100M</td><td><a href="#tab1">3G</td><td><a href="#tab1">files</a></td><td><a href="#tab1">盛大开业</td><td><a href="#tab1">网盘</td></tr>
+			<tr><td><a href="#tab1">100M</td><td><a href="#tab1">3G</td><td><a href="#tab1">files</a></td><td><a href="#tab1">盛大开业</td><td><a href="#tab1">网盘</td></tr>
+		</table>
+		</div>
+		<div>
+			<div class="cr">版权信息</div>
+			<div class="crpic"><img src="img/icon-github.png"></div>
+		</div>
+	</footer>
+	
